@@ -6,10 +6,11 @@
 
 .hero > section >div{
     background: rgb(0, 0, 0);
-    width: 97.5vw;
     height: 80vh;
     text-align: center;
     padding: 1em;
+    margin-right: 0.1% ;
+    margin-bottom: 0.5em;
 }
 #headName{
     display: block;
@@ -21,4 +22,41 @@
     color: white;
     display: block;
     margin: 1em;
+    font-size: larger;
+}
+
+#nerd{
+    width: 28em;
+    height: 16em;
+}
+
+
+@media (max-width:1048px){
+    #headName{
+        font-size: large;
+       }
+    .hero > section >div{
+        height: 83vh;
+    }
+    #headMsg{
+        font-size: large;
+    }
+
+}
+
+@media (max-width:790px){
+    #nerd{
+        width: 44.5vw;
+        height: 27vh;
+    }
+
+    .hero > section >div{
+        height: 85vh;
+    }
+    #headName{
+     font-size: small;
+    }
+    #headMsg{
+        font-size: medium;
+    }
 }
