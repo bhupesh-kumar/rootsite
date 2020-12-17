@@ -28,8 +28,12 @@
 #nerd{
     width: 28em;
     height: 16em;
+}
+
+#bear{
     color: white;
-    text-align: center;
+    text-align: justify;
+    font-size: xx-large;
 }
 
 
