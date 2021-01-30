@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    font-family: 'Barlow Condensed', sans-serif !important; 
+    font-size: medium !important;   
+}
+
 #navLogo{
     height: 10em;
     width: 10em;
-    background-color: aqua;
-    padding: 0.5em;
+    background-color: #fff;
+    padding: 0.1em;
     border-radius: 50%;
     border-color: blue;
     margin-left: 0.5em;
+    position: absolute;
+    top:1em;
+    z-index: 1;
+}
+
+.activeOption{
     position: relative;
-    z-index: 2;
+    left: 10em;
 }
