@@ -1,4 +1,11 @@
-body .uk-section-primary {
-    background: #0832A9 !important;
+#navLogo{
+    height: 10em;
+    width: 10em;
+    background-color: aqua;
+    padding: 0.5em;
+    border-radius: 50%;
+    border-color: blue;
+    margin-left: 0.5em;
+    position: relative;
+    z-index: 2;
 }
-

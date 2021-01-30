@@ -1,0 +1,11 @@
+body .uk-section-primary {
+    background: #0832A9 !important;
+}
+
+body uk-navbar-right{
+    margin-right:0.5em ;
+}
+
+body .hero .uk-section-primary{
+    z-index: 1;
+}
